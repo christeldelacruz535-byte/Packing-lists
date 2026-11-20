@@ -28,10 +28,10 @@ https://packmate-backpacker-packing-list-2f.vercel.app
 
 ## GitHub Repository
 
-https://github.com/Christeldelacruz535-byte/PackMate
+https://github.com/christeldelacruz535-byte/Packing-lists
 
 ## Author
 
-Christel Dela Cruz
+ Christel Dela Cruz
 
 Section: BSINTE 2A
