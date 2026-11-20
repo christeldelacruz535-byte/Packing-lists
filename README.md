@@ -35,3 +35,7 @@ https://github.com/christeldelacruz535-byte/Packing-lists
  Christel Dela Cruz
 
 Section: BSINTE 2A
+
+## Screenshots
+
+![PackMate Packing List] (Screenshot_20261120-134334.png)
