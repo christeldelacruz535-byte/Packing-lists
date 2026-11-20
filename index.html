@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PackMate - Backpacker Packing List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎒 PackMate</h1>
+  <p>Backpacker Packing List</p>
+  <button id="settingsBtn">⚙️ Settings</button>
+</header>
+
+<!-- HOME PAGE -->
+<div id="homePage">
+  <input type="text" id="searchTrip" placeholder="🔍 Search trip...">
+  <div id="tripList"></div>
+  <button id="addTripBtn">+ Create New Trip</button>
+</div>
+
+<!-- LIST PAGE -->
+<div id="listPage" style="display:none;">
+  <button id="backBtn">← Back</button>
+  <h2 id="tripTitle"></h2>
+  <div class="progress-box">
+    <p id="progressText">0/0 Packed</p>
+    <div class="progress-bar"><div id="progressFill"></div></div>
+  </div>
+  <input type="text" id="searchItem" placeholder="🔍 Search item...">
+  <div id="itemList"></div>
+  <div class="add-box">
+    <input type="text" id="newItemName" placeholder="Add new item...">
+    <select id="newItemCat">
+      <option>Clothes</option>
+      <option>Toiletries</option>
+      <option>Gadgets</option>
+      <option>Documents</option>
+      <option>Essentials</option>
+    </select>
+    <button id="addItemBtn">Add</button>
+  </div>
+</div>
+
+<!-- SETTINGS PAGE -->
+<div id="settingsPage" style="display:none;">
+  <button id="backHomeBtn">← Back</button>
+  <h2>⚙️ Settings</h2>
+  <div class="setting-card">
+    <label>Dark Mode <input type="checkbox" id="darkMode"></label>
+    <label>Sound <input type="checkbox" id="soundToggle" checked></label>
+    <label>Font Size
+      <select id="fontSize">
+        <option value="small">Small</option>
+        <option value="medium" selected>Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </label>
+  </div>
+  <button id="clearCheckedBtn">Clear All Checked Items</button>
+  <button id="deleteCustomBtn">Delete All Custom Trips</button>
+  <button id="resetBtn">Reset All Lists to Default</button>
+  <div class="about">
+    <p><b>PackMate v1.0</b></p>
+    <p>Developer: Christel D. Dela Cruz</p>
+    <p>Section: BSINTE 2A</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
