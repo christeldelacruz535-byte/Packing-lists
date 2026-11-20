@@ -1,0 +1,33 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #f2f7f2; color: #222; padding-bottom: 30px; }
+body.dark { background: #1a1a1a; color: #fff; }
+body.small { font-size: 14px; }
+body.large { font-size: 19px; }
+header { background: #2e7d32; color: white; padding: 20px; text-align: center; position: relative; }
+header h1 { margin: 0; }
+header p { margin: 5px 0 0; }
+#settingsBtn { position: absolute; right: 15px; top: 20px; border: none; background: white; padding: 8px 12px; border-radius: 20px; cursor: pointer; }
+#homePage, #listPage, #settingsPage { padding: 15px; max-width: 500px; margin: auto; }
+input, select { width: 100%; padding: 12px; margin: 8px 0; border-radius: 10px; border: 1px solid #ccc; }
+button { cursor: pointer; }
+.trip-card { background: white; padding: 15px; margin: 10px 0; border-radius: 15px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1); cursor: pointer; }
+body.dark .trip-card { background: #2b2b2b; }
+.trip-card span { font-size: 28px; }
+#addTripBtn, #clearCheckedBtn, #deleteCustomBtn, #resetBtn { width: 100%; padding: 13px; margin-top: 10px; border: none; border-radius: 12px; background: #ff8f00; color: white; font-weight: bold; }
+#deleteCustomBtn { background: #e53935; }
+#resetBtn { background: #555; }
+#backBtn, #backHomeBtn { background: none; border: none; font-size: 16px; margin-bottom: 10px; }
+.progress-box { background: white; padding: 12px; border-radius: 12px; }
+body.dark .progress-box { background: #2b2b2b; }
+.progress-bar { height: 12px; background: #ddd; border-radius: 10px; overflow: hidden; }
+#progressFill { height: 100%; width: 0%; background: #2e7d32; transition: 0.3s; }
+.item { background: white; padding: 12px; margin: 8px 0; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; }
+body.dark .item { background: #2b2b2b; }
+.item.done { opacity: 0.6; text-decoration: line-through; }
+.item button { background: #ff5252; color: white; border: none; padding: 6px 10px; border-radius: 8px; }
+.cat-title { margin-top: 18px; color: #2e7d32; font-weight: bold; }
+.setting-card { background: white; padding: 15px; border-radius: 15px; }
+body.dark .setting-card { background: #2b2b2b; }
+.setting-card label { display: flex; justify-content: space-between; margin: 12px 0; }
+.setting-card input, .setting-card select { width: auto; }
+.about { text-align: center; margin-top: 20px; color: #777; }
