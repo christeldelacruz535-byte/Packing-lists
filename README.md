@@ -38,4 +38,4 @@ Section: BSINTE 2A
 
 ## Screenshots
 
-![PackMate Packing List] Screenshot_20261120-134334.png
+Screenshot_20261120-134334.png
